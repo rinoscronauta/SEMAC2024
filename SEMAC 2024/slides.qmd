@@ -1,0 +1,224 @@
+---
+title: "Explorando a Ciência de Dados"
+subtitle: ""
+author: "Laura Rezzieri Gambera"
+format:
+  revealjs:
+    theme: sky
+---
+
+```{r, include=FALSE}
+# source('script.R')
+```
+
+
+## Trajetória
+
+“Pós-doutora pela USP, Doutora em Matemática pela Unesp em cotutela com a Usach, Mestre e Licenciada em Matemática pela Unesp de São José do Rio Preto. Durante a vida acadêmica foi bolsista do Programa de Educação Tutorial (PET), FAPESP e CAPES, participando em atividades de monitoria e pesquisa na área de Análise e Equações Diferenciais, com três publicações em revistas inter- nacionais. Possui experiência como docente pela UFGD. Atualmente trabalha como Cientista de Dados na Argus Solutions.”
+
+## Um pouco sobre a área de dados
+
+- Quando se fala em dados, qual a primeira coisa que lhe vem à cabeça?
+
+- Por que dados são importantes? Por que coletar dados?
+
+- Que tipo de uso de dados você conhece?
+
+## Coleta de dados
+
+
+![](imagens/Banco de dados.png){.center}
+
+## Possibilidades em dados
+
+- Previsão de vendas
+- Previsão de fraude
+- Tempo de garantia
+- Limite de crédito
+- Recomendação de produtos
+- Eficácia de vacinas
+- Processamento de Linguagem Natural
+- Tomada de decisões
+
+## Profissionais de dados
+
+- Engenharia de Dados
+- Análise de Dados
+- Ciência de Dados
+
+## O que é Machine Learning?
+
+##
+
+O aprendizado automático (...) é um subcampo da Engenharia e da ciência da computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial [1]. Em 1959, Arthur Samuel definiu aprendizado de máquina como o "campo de estudo que dá aos computadores a habilidade de aprender sem serem explicitamente programados"[2]
+
+[1] https://www.britannica.com/technology/machine-learning
+[2] https://books.google.com.br/books?id=Dn-Gdoh66sgC&pg=PA89&redir_esc=y#v=onepage&q&f=false
+
+fonte:https://pt.wikipedia.org/wiki/Aprendizado_de_m%C3%A1quina
+
+
+<!-- ## Proposta -->
+
+<!-- ![](imagens/area2.png) -->
+
+<!-- # Projetos chiques -->
+
+<!-- Coisas legais entregues nos últimos meses -->
+
+<!-- ## Site Argus  -->
+
+<!-- [https://main.d3jhchdc4bdfp9.amplifyapp.com/pt-BR](https://main.d3jhchdc4bdfp9.amplifyapp.com/pt-BR) -->
+
+<!-- ## Argus Roadvision -->
+
+<!-- ![](imagens/rd1.jpg) -->
+
+<!-- ## {} -->
+
+<!-- ![](imagens/buraco.png) -->
+
+<!-- ## {background-video="imagens/rd2.mp4" background-video-loop=true background-size='cover'} -->
+
+<!-- ## Smart Report (o lendário!!) -->
+
+<!-- ![](imagens/rep1.png) -->
+
+<!-- ## {} -->
+
+<!-- ![](imagens/rep2.png) -->
+
+<!-- ## {} -->
+
+<!-- ![](imagens/rep3.png) -->
+
+<!-- ## {} -->
+
+<!-- ![](imagens/rep4.png) -->
+
+<!-- ## Nova plataforma (a lendária!!) -->
+
+<!-- [https://p.argus-ia.com.br/login](https://p.argus-ia.com.br/login) -->
+
+<!-- ## Argus Mobile -->
+
+<!-- Sim, em shiny!!! -->
+
+<!-- ## {background-video="imagens/mobile.webm" background-video-loop=true background-size='cover'} -->
+
+
+
+
+
+
+
+
+<!-- ## Survival -->
+
+<!-- Se instalarmos 10 aparelhos hoje, daqui quantos dias teremos que trocar metade deles? -->
+
+<!-- ![](imagens/surv.png) -->
+
+<!-- ## Copiloto do MIT para processar eventos -->
+
+<!-- ![](imagens/robo.png) -->
+
+<!-- # Dados -->
+
+<!-- ## Tasks por projeto {.scrollable} -->
+
+<!-- ```{r} -->
+<!-- dados |>  -->
+<!--   filtra_finalizados() |>  -->
+<!--   filtra_tasks() |>  -->
+<!--   count_arrange(Projeto) |>  -->
+<!--   reactable() -->
+<!-- ``` -->
+
+
+<!-- ## Tasks por pessoa {.scrollable} -->
+
+<!-- ```{r} -->
+<!-- dados |>  -->
+<!--   filtra_finalizados() |>  -->
+<!--   filtra_proibidos() |>  -->
+<!--   count_arrange(Pessoa) |>  -->
+<!--   reactable() -->
+<!-- ``` -->
+<!-- ## Features {.scrollable} -->
+
+<!-- ```{r} -->
+<!-- dados |>  -->
+<!--   filtra_features() |>  -->
+<!--   filtra_finalizados() |>  -->
+<!--   filtra_proibidos() |>  -->
+<!--   select(Projeto, Assunto, Pessoa) |>  -->
+<!--   reactable() -->
+<!-- ``` -->
+
+<!-- ## Horas por projeto {.scrollable} -->
+
+<!-- ```{r} -->
+<!-- dados |>  -->
+<!--   summarise( -->
+<!--     Total = n() -->
+<!--     ,Tempo_gasto = sum(Tempo.gasto) |> round(digits = 2) -->
+<!--     ,.by = c(Projeto) -->
+<!--   ) |>  -->
+<!--   arrange(desc(Tempo_gasto)) |>  -->
+<!--   reactable() -->
+<!-- ``` -->
+
+<!-- # Tecnologias chiques -->
+
+<!-- ## {} -->
+
+<!-- - ECS pra rodar scripts eternos; -->
+
+<!-- . . .  -->
+
+<!-- - Julia pra fazer uma cacetada de coisas com Geotab; -->
+
+<!-- . . .  -->
+
+<!-- - Python pra computer vision e APIs. -->
+
+
+
+<!-- # Prêmio COMMITE MONSTRO... -->
+
+<!-- . . .  -->
+
+<!-- ![](imagens/monstro-silmar.jpg) -->
+
+<!-- ## Mais monstro -->
+
+<!-- . . .  -->
+
+<!-- ![](imagens/commite-ultra-monstro.png) -->
+
+<!-- ## Segundo mais monstro -->
+
+<!-- . . . -->
+
+<!-- ![](imagens/monstro-laura.jpg) -->
+
+<!-- ## Menos monstro -->
+
+<!-- . . .  -->
+
+<!-- ![](imagens/menos-monstro.png) -->
+
+<!-- ## Porém... -->
+
+<!-- . . .  -->
+
+<!-- ![](imagens/commitada.png) -->
+
+
+<!-- ![](imagens/commitada2.png) -->
+
+<!-- # O que aprendemos? -->
+
+<!-- ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
+# MUITO OBRIGADA!
