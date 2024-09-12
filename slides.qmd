@@ -14,15 +14,15 @@ format:
 
 ## Trajetória
 
-“Pós-doutora pela USP, Doutora em Matemática pela Unesp em cotutela com a Usach, Mestre e Licenciada em Matemática pela Unesp de São José do Rio Preto. Durante a vida acadêmica foi bolsista do Programa de Educação Tutorial (PET), FAPESP e CAPES, participando em atividades de monitoria e pesquisa na área de Análise e Equações Diferenciais, com três publicações em revistas inter- nacionais. Possui experiência como docente pela UFGD. Atualmente trabalha como Cientista de Dados na Argus Solutions.”
+Pós-doutora pela USP, Doutora em Matemática pela Unesp em cotutela com a Usach, Mestre e Licenciada em Matemática pela Unesp de São José do Rio Preto. Durante a vida acadêmica foi bolsista do Programa de Educação Tutorial (PET), FAPESP e CAPES, participando em atividades de monitoria e pesquisa na área de Análise e Equações Diferenciais, com três publicações em revistas internacionais. Possui experiência como docente pela UFGD. Atualmente trabalha como Cientista de Dados na Argus Solutions.
 
 ## Um pouco sobre a área de dados
 
-- Quando se fala em dados, qual a primeira coisa que lhe vem à cabeça?
+- Quando falamos em dados, qual a primeira coisa que lhe vem à cabeça?
 
 - Por que dados são importantes? Por que coletar dados?
 
-- Que tipo de uso de dados você conhece?
+- Que tipo de uso de dados vocês conhecem?
 
 ## Coleta de dados
 
@@ -57,168 +57,37 @@ O aprendizado automático (...) é um subcampo da Engenharia e da ciência da co
 
 fonte:https://pt.wikipedia.org/wiki/Aprendizado_de_m%C3%A1quina
 
+## Tipos de aprendizado
+![](imagens/ML.png){.center}
 
-<!-- ## Proposta -->
+## Regressão
 
-<!-- ![](imagens/area2.png) -->
+Problemas de regressão são utilizados para prever um valor de uma escala contínua.
 
-<!-- # Projetos chiques -->
+- Quantidade de vendas
+- Renda de um indivíduo
+- Preço de um imóvel
+- Valor de crédito
 
-<!-- Coisas legais entregues nos últimos meses -->
+## Classificação
 
-<!-- ## Site Argus  -->
+Problemas de classificação são utilizados para prever um rótulo ou classe.
 
-<!-- [https://main.d3jhchdc4bdfp9.amplifyapp.com/pt-BR](https://main.d3jhchdc4bdfp9.amplifyapp.com/pt-BR) -->
+- Inadimplente vs Adimplente
+- Reconhecimento facial
+- Previsão de sonolência
+- Diagnóstico de Câncer
+- Retenção de clientes
 
-<!-- ## Argus Roadvision -->
+##
 
-<!-- ![](imagens/rd1.jpg) -->
+- Quando usar classificação ou regressão?
+- Quando usar o aprendizado supervisionado e o não supervisionado?
+- É possível usar o aprendizado supervisionado e não supervisionado juntos?
 
-<!-- ## {} -->
+##
 
-<!-- ![](imagens/buraco.png) -->
+A resposta é: depende!
 
-<!-- ## {background-video="imagens/rd2.mp4" background-video-loop=true background-size='cover'} -->
 
-<!-- ## Smart Report (o lendário!!) -->
-
-<!-- ![](imagens/rep1.png) -->
-
-<!-- ## {} -->
-
-<!-- ![](imagens/rep2.png) -->
-
-<!-- ## {} -->
-
-<!-- ![](imagens/rep3.png) -->
-
-<!-- ## {} -->
-
-<!-- ![](imagens/rep4.png) -->
-
-<!-- ## Nova plataforma (a lendária!!) -->
-
-<!-- [https://p.argus-ia.com.br/login](https://p.argus-ia.com.br/login) -->
-
-<!-- ## Argus Mobile -->
-
-<!-- Sim, em shiny!!! -->
-
-<!-- ## {background-video="imagens/mobile.webm" background-video-loop=true background-size='cover'} -->
-
-
-
-
-
-
-
-
-<!-- ## Survival -->
-
-<!-- Se instalarmos 10 aparelhos hoje, daqui quantos dias teremos que trocar metade deles? -->
-
-<!-- ![](imagens/surv.png) -->
-
-<!-- ## Copiloto do MIT para processar eventos -->
-
-<!-- ![](imagens/robo.png) -->
-
-<!-- # Dados -->
-
-<!-- ## Tasks por projeto {.scrollable} -->
-
-<!-- ```{r} -->
-<!-- dados |>  -->
-<!--   filtra_finalizados() |>  -->
-<!--   filtra_tasks() |>  -->
-<!--   count_arrange(Projeto) |>  -->
-<!--   reactable() -->
-<!-- ``` -->
-
-
-<!-- ## Tasks por pessoa {.scrollable} -->
-
-<!-- ```{r} -->
-<!-- dados |>  -->
-<!--   filtra_finalizados() |>  -->
-<!--   filtra_proibidos() |>  -->
-<!--   count_arrange(Pessoa) |>  -->
-<!--   reactable() -->
-<!-- ``` -->
-<!-- ## Features {.scrollable} -->
-
-<!-- ```{r} -->
-<!-- dados |>  -->
-<!--   filtra_features() |>  -->
-<!--   filtra_finalizados() |>  -->
-<!--   filtra_proibidos() |>  -->
-<!--   select(Projeto, Assunto, Pessoa) |>  -->
-<!--   reactable() -->
-<!-- ``` -->
-
-<!-- ## Horas por projeto {.scrollable} -->
-
-<!-- ```{r} -->
-<!-- dados |>  -->
-<!--   summarise( -->
-<!--     Total = n() -->
-<!--     ,Tempo_gasto = sum(Tempo.gasto) |> round(digits = 2) -->
-<!--     ,.by = c(Projeto) -->
-<!--   ) |>  -->
-<!--   arrange(desc(Tempo_gasto)) |>  -->
-<!--   reactable() -->
-<!-- ``` -->
-
-<!-- # Tecnologias chiques -->
-
-<!-- ## {} -->
-
-<!-- - ECS pra rodar scripts eternos; -->
-
-<!-- . . .  -->
-
-<!-- - Julia pra fazer uma cacetada de coisas com Geotab; -->
-
-<!-- . . .  -->
-
-<!-- - Python pra computer vision e APIs. -->
-
-
-
-<!-- # Prêmio COMMITE MONSTRO... -->
-
-<!-- . . .  -->
-
-<!-- ![](imagens/monstro-silmar.jpg) -->
-
-<!-- ## Mais monstro -->
-
-<!-- . . .  -->
-
-<!-- ![](imagens/commite-ultra-monstro.png) -->
-
-<!-- ## Segundo mais monstro -->
-
-<!-- . . . -->
-
-<!-- ![](imagens/monstro-laura.jpg) -->
-
-<!-- ## Menos monstro -->
-
-<!-- . . .  -->
-
-<!-- ![](imagens/menos-monstro.png) -->
-
-<!-- ## Porém... -->
-
-<!-- . . .  -->
-
-<!-- ![](imagens/commitada.png) -->
-
-
-<!-- ![](imagens/commitada2.png) -->
-
-<!-- # O que aprendemos? -->
-
-<!-- ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
 # MUITO OBRIGADA!
